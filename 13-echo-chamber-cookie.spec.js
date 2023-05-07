@@ -28,7 +28,6 @@ describe('Signing in with a seeded database', () => {
     });
   });
 });
-
 describe('Setting the cookie', () => {
   beforeEach(() => {
     cy.task('seed');
